@@ -10,3 +10,15 @@ export interface Poke {
     front_default: string;
   };
 }
+
+export interface Detail {
+  id: number;
+  isOpened: boolean;
+}
+
+export interface PokemonDetail extends Poke {
+  abilities?: {
+    ability: string;
+    name: string;
+  }[];
+}

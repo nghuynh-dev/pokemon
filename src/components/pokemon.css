@@ -1,6 +1,7 @@
 .collection-container {
   color: #3d405b;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin: 2rem;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -31,13 +32,14 @@
   font-size: 1.5rem;
   color: #3d405b;
   font-weight: 700;
+  text-transform: capitalize;
 }
 .detail-info {
   background-color: #f2cc8f;
   background-image: linear-gradient(0deg, #f2cc8f 0%, #f8f3d9 100%);
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .detail-abitlity {
@@ -55,10 +57,11 @@
 }
 .detail-close {
   cursor: pointer;
-  margin: 1rem 1rem 0 auto;
+  margin: 0.5rem 1rem 0 auto;
   font-size: 1.5rem;
 }
 .pokemon-name {
+  text-transform: capitalize;
   margin-top: 0.5rem;
 }
 .pokemon-list-container {
@@ -71,6 +74,7 @@
   border-radius: 12px;
   justify-content: center;
   align-items: center;
+  min-width: 160px;
 }
 
 .pokemon-list-detailed {
@@ -86,26 +90,26 @@
 
 .btn {
   width: 50%;
-  margin-top: 1.5rem;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 2rem;
 }
 
 button {
   cursor: pointer;
   background-color: #81b29a;
   color: #3d405b;
-  padding: 0.5rem;
   border-radius: 12px;
   font-size: 1.5rem;
   border: none;
   transition: 200ms ease-in-out;
+  padding: 10px 70px;
 }
+
 button:hover {
   cursor: pointer;
   background-color: #61997e;
   color: #3d405b;
-  padding: 0.5rem;
   border-radius: 12px;
   font-size: 1.5rem;
   border: none;
